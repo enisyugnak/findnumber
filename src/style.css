@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.board{
+  margin-top: 50px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form >input{
+  width:30px;
+  height: 30px;
+  font-size:20px;
+  text-align: center;
+  margin-left:5px;
+}
+
+.numRow{
+  display: flex;
+  align-items: center;
+  margin-top:10px;
+}
+
+.numRow >div{
+  width: 30px;
+  height: 30px;
+  font-size:20px;
+  text-align: center;
+  padding: 3px;
+  margin-left:5px;
+  border: 1px solid gray;
+}
+.numRow  >label{
+  margin-left:20px;
+}
+.selectBox{
+  font-weight: bold;
+  font-size:18px;
+  padding: 5px;
+  text-align: center;
+}
+input{
+  height: 30px;
+  font-size:20px;
+  text-align: center;
+  margin-left:5px;
+}
+input:invalid {
+  border: 2px solid red;
+}
+button{
+  margin-left:5px;
+  height: 30px;
+}
+.board--head{
+  margin-bottom:20px;
+}
+
